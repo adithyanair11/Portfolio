@@ -19,11 +19,15 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
     jobit,
     tripguide,
     threejs,
   } from "../assets";
+
+  import ceg from '../assets/company/ceg.jpg';
+  import edu from '../assets/company/edu.jpg'
+  import ethan from '../assets/company/ethan.jpg';
+  import aniflix from '../assets/aniflix.png'
   
   export const navLinks = [
     {
@@ -50,9 +54,13 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "UI/UX",
       icon: creator,
     },
+    {
+      title: "React Native Developer",
+      icon: mobile
+    }
   ];
   
   const technologies = [
@@ -112,24 +120,24 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Electronics and communication engineer",
+      company_name: "College of engineering Guindy, Anna university",
+      icon: ceg,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "August 2018 - june 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed strong communication and problem-solving skills, as well as the ability to work in teams",
+        "Gained hands-on experience through laboratory experiments, internships, and industry projects",
+        "Specialized in specific areas such as communication theory, microprocessors and microcontrollers, control systems, digital signal processing, and electromagnetic theory.",
+        "Participated in hackathons, cultural events, theatre, and was the member of the Anna university football team.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Full stack developer intern",
+      company_name: "Edureka",
+      icon: edu,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "August 2021 - Januray 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -138,29 +146,16 @@ import {
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Software Developer",
+      company_name: "Ethan.AI",
+      icon: ethan,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "September 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Revised, modularized and updated old code bases to modern development standards, reducing operating costs and improving functionality.",
+        "Developed software applications for analyzing and managing our client's wealth by aggregating financial data from bank statements.",
+        "Developed an internal dashboard application for the company to automate bank statement validations, resulting in the elimination of manual work.",
+        "Collaborated with cross-functional development team members to analyze potential system solutions based on evolving client requirements.",
       ],
     },
   ];
@@ -194,68 +189,68 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Aniflix",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "This application allows users to browse through anime tv shows and movies of various genres using the TMBD API.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Redux",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "firebase",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: aniflix,
+      source_code_link: "https://github.com/adithyanair11/Aniflix",
     },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
+    // {
+    //   name: "Job IT",
+    //   description:
+    //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "restapi",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "scss",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: jobit,
+    //   source_code_link: "https://github.com/",
+    // },
+    // {
+    //   name: "Trip Guide",
+    //   description:
+    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    //   tags: [
+    //     {
+    //       name: "nextjs",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "supabase",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: tripguide,
+    //   source_code_link: "https://github.com/",
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
